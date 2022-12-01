@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/ivQt"
+            android:layout_width="79dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tvMadh1"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Mã đơn hàng:"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvMadh"
+                    android:layout_width="161dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+
+                    android:text="TextView"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tvngaytao1"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Ngày đặt hàng:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvngaytao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="TextView"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tvvanchuyen1"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="PTVC:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvvanchuyen"
+                    android:layout_width="84dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="TextView"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tvthanhtoan1"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="PTTT:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvthanhtoan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="TextView"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tvtongtien1"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Tổng tiền:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvtongtien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="TextView"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tvtt1"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Tình trạng:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvtt"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="TextView"
+                    android:textColor="#F44336"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#E41B17</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">#E41B17</item>
+        <item name="titleTextColor">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#E41B17</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#E41B17</item>
+        <item name="android:gravity">center</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light" />
+</resources>

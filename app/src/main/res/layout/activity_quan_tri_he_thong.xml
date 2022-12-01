@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NV_QuanTriHeThong">
+
+    <Button
+        android:id="@+id/btnNhanvien"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="60dp"
+        android:text="Nhân viên"
+        app:layout_constraintBottom_toBottomOf="@+id/btnKhachhang"
+        app:layout_constraintEnd_toStartOf="@+id/btnKhachhang"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnKhachhang" />
+
+    <Button
+        android:id="@+id/btnKhachhang"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="54dp"
+        android:text="Khách hàng"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnNhanvien"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <Button
+        android:id="@+id/btnDonhang"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="52dp"
+        android:text="Đơn hàng"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="@+id/btnLoaisp"
+        app:layout_constraintStart_toStartOf="@+id/btnLoaisp"
+        app:layout_constraintTop_toBottomOf="@+id/btnsp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="14dp"
+        android:text="Quản trị hệ thống"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="31dp"
+        android:text="Quản lý mặt hàng"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnsp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="32dp"
+        android:text="Quản lý mặt hàng"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnKhachhang"
+        app:layout_constraintEnd_toEndOf="@+id/btnsp"
+        app:layout_constraintStart_toStartOf="@+id/btnNhanvien"
+        app:layout_constraintTop_toBottomOf="@+id/btnDonhang" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="35dp"
+        android:gravity="left"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14">
+
+        <TextView
+            android:id="@+id/tvManv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Mã nhân viên:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvTennv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Tên nhân viên:"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLoaisp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="68dp"
+        android:text="Loại sản phẩm"
+        app:layout_constraintBottom_toBottomOf="@+id/btnsp"
+        app:layout_constraintEnd_toStartOf="@+id/btnsp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnsp" />
+
+    <Button
+        android:id="@+id/btnsp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="44dp"
+        android:text="Sản phẩm"
+        app:layout_constraintBottom_toTopOf="@+id/btnDonhang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnLoaisp"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

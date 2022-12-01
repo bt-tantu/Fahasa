@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien"
+        tools:targetApi="31">
+        <activity
+            android:name=".NV_Them_LoaiSanPham"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NV_ChinhSua_LoaiSanPham"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NV_QuanLyLoaiSanPham"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NV_QuanTriHeThong"
+            android:exported="false"
+            android:label="Quản trị hệ thống">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".KhachHang_ManHinhChinh_Activity"
+            android:exported="false"
+            android:label="FAHASA">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NV_DuyetDonHang"
+            android:exported="false"
+            android:label="Chi tiết đơn hàng">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NV_KeToan_Activity"
+            android:exported="false"
+            android:label="Kế toán">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NV_QT3_VanChuyenDH_Activity"
+            android:exported="false"
+            android:label="Bộ phận vận chuyển"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NV_QT2_DongGoiDH_Activity"
+            android:exported="false"
+            android:label="Bộ phận đóng gói"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NV_QT1_TiepNhanDH_Activity"
+            android:exported="false"
+            android:label="Bộ phận tiếp nhận đơn hàng"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="Danh sách sản phẩm"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.category.CreateCategoryActivity"
+            android:exported="false"
+            android:label="Create Category"
+            android:theme="@style/Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".ui.supervisor.CreateSupervisorActivity"
+            android:exported="false"
+            android:label="Create Supervisor"
+            android:theme="@style/Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".ui.home.DeleteProductActivity"
+            android:exported="false"
+            android:label="Delete Product"
+            android:theme="@style/Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+
+        <activity
+            android:name=".ui.home.EditProductActivity"
+            android:exported="false"
+            android:label="Edit Product"
+            android:theme="@style/Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".ui.home.CreateProductActivity"
+            android:exported="false"
+            android:label="Create Product"
+            android:theme="@style/Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

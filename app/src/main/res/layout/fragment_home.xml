@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:launchMode="singleTask" >
+
+    <ListView
+        android:id="@+id/list_view_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:layout_marginBottom="60dp"
+        android:padding="10dp" >
+    </ListView>
+    <!-- set floating button to bottom left relative layout" -->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="80dp"
+        android:src="@android:drawable/ic_input_add"
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:contentDescription="TODO" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="140dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:contentDescription="TODO" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="200dp"
+        android:src="@android:drawable/ic_menu_delete"
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:contentDescription="TODO" />
+
+</RelativeLayout>

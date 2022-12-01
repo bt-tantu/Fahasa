@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".ui.home.CreateProductActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.DoAnLTTTBDD_HoangNguyenAnhVy_NguyenThiThuyTien.AppBarOverlay"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+             />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="First Name"
+        android:id="@+id/fistName"
+        android:inputType="text">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/lastName"
+        android:hint="Last Name"
+        android:inputType="text">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/phone"
+        android:hint="Phone"
+        android:inputType="text">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/address"
+        android:hint="Address"
+        android:inputType="text">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:inputType="text">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/gender"
+        android:hint="Gender"
+        android:inputType="text">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/birthDate"
+        android:hint="Birth Date"
+        android:inputType="text">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:inputType="text">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/status"
+        android:hint="Status"
+        android:inputType="text">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bio"
+        android:hint="Bio"
+        android:inputType="text">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/submit"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cancelButton"
+        />
+</LinearLayout>

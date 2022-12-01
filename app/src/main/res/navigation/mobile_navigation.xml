@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_product">
+
+    <fragment
+        android:id="@+id/navigation_product"
+        android:name="com.example.doanltttbdd_hoangnguyenanhvy_nguyenthithuytien.ui.home.HomeFragment"
+        android:label="@string/product"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="category"
+            app:argType="string"
+            android:defaultValue=""/>
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.example.doanltttbdd_hoangnguyenanhvy_nguyenthithuytien.ui.category.CategoryFragment"
+        android:label="@string/category"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/navigation_supervisor"
+        android:name="com.example.doanltttbdd_hoangnguyenanhvy_nguyenthithuytien.ui.supervisor.SupervisorFragment"
+        android:label="@string/title_supervisor"
+        tools:layout="@layout/fragment_supervisor" />
+</navigation>
